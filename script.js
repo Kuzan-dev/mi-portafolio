@@ -29,7 +29,7 @@ const T = {
     "stat_records": "Enterprise Clients",
     "stat_records_sub": "TCS, BCP, Repsol, Pacífico, NTT Data",
     "stat_papers": "Cloud Certifications",
-    "stat_papers_sub": "Azure DP-900 & GitHub Copilot",
+    "stat_papers_sub": "DP-700, DP-900 & GH Copilot",
     "stat_exp": "Experience",
     "stat_exp_sub": "Data Engineering & Software",
     "traj_label": "TRAJECTORY",
@@ -97,7 +97,7 @@ const T = {
     "stat_records": "Clientes Corporativos",
     "stat_records_sub": "TCS, BCP, Repsol, Pacífico, NTT Data",
     "stat_papers": "Certificaciones Cloud",
-    "stat_papers_sub": "Azure DP-900 y GitHub Copilot",
+    "stat_papers_sub": "DP-700, DP-900 y GH Copilot",
     "stat_exp": "Experiencia",
     "stat_exp_sub": "Ingeniería de Datos y Software",
     "traj_label": "TRAYECTORIA",
@@ -432,6 +432,18 @@ const PROJECTS = [
 ];
 
 const PUBLICATIONS = [
+  {
+    "id": "fabric_data_engineer",
+    "status": "published",
+    "venue_es": "Microsoft",
+    "venue_en": "Microsoft",
+    "title_es": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
+    "title_en": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
+    "date_es": "Credencial Oficial",
+    "date_en": "Official Credential",
+    "doi": "https://learn.microsoft.com/credentials/certifications/fabric-data-engineer/",
+    "tags": ["Fabric", "Data Engineering", "Cloud", "DP-700"]
+  },
   {
     "id": "azure_fundamentals",
     "status": "published",
