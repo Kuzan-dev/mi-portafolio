@@ -29,7 +29,7 @@ const T = {
     "stat_records": "Enterprise Clients",
     "stat_records_sub": "TCS, BCP, Repsol, Pacífico, NTT Data",
     "stat_papers": "Cloud Certifications",
-    "stat_papers_sub": "DP-700, DP-900 & GH Copilot",
+    "stat_papers_sub": "DP-700, DP-750, DP-900 & GH Copilot",
     "stat_exp": "Experience",
     "stat_exp_sub": "Data Engineering & Software",
     "traj_label": "TRAJECTORY",
@@ -97,7 +97,7 @@ const T = {
     "stat_records": "Clientes Corporativos",
     "stat_records_sub": "TCS, BCP, Repsol, Pacífico, NTT Data",
     "stat_papers": "Certificaciones Cloud",
-    "stat_papers_sub": "DP-700, DP-900 y GH Copilot",
+    "stat_papers_sub": "DP-700, DP-750, DP-900 y GH Copilot",
     "stat_exp": "Experiencia",
     "stat_exp_sub": "Ingeniería de Datos y Software",
     "traj_label": "TRAYECTORIA",
@@ -432,6 +432,18 @@ const PROJECTS = [
 ];
 
 const PUBLICATIONS = [
+  {
+    "id": "azure_databricks_engineer",
+    "status": "published",
+    "venue_es": "Microsoft",
+    "venue_en": "Microsoft",
+    "title_es": "Microsoft Certified: Azure Databricks Data Engineer Associate (DP-750)",
+    "title_en": "Microsoft Certified: Azure Databricks Data Engineer Associate (DP-750)",
+    "date_es": "Credencial Oficial",
+    "date_en": "Official Credential",
+    "doi": "https://learn.microsoft.com/credentials/certifications/azure-databricks-data-engineer/",
+    "tags": ["Azure", "Databricks", "Data Engineering", "DP-750"]
+  },
   {
     "id": "fabric_data_engineer",
     "status": "published",
